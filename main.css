@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+#contenedor{
+  width: 400px;
+  display: flex;
+  gap: 24px;
+  padding: 16px;
+  border: 1px solid black;
+
+}
+
+#contenedor :nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contendor-img {
+  width: 150px;
+}
+
+.contendor-img > img {
+  width: 100%;
+  height: 100%;
+}
