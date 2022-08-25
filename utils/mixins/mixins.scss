@@ -1,0 +1,7 @@
+@mixin colorLetra {
+  color: pink;
+}
+
+@mixin colorLetraPorTuCuenta($color: brown) {
+  color: $color;
+}

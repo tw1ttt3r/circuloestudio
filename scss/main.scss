@@ -1,0 +1,19 @@
+@import '../utils/variables';
+@import '../utils/mixins/mixins.scss';
+
+#contenedor {
+  display: $display_flex;
+  @include colorLetra;
+  
+  .name  {
+   @include colorLetraPorTuCuenta(red); 
+  }
+  
+  .age {
+    @include colorLetraPorTuCuenta;
+  }
+}
+
+.name {
+  @include colorLetraPorTuCuenta(yellow); 
+}
